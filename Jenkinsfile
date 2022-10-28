@@ -4,7 +4,7 @@ pipeline {
   stages {
       stage("GIT CHECKOUT") {
             steps {
-                git branch: 'main', credentialsId: 'git', url: 'https://github.com/Zeroxcharisma/CI-CD.git'
+                git branch: 'main', credentialsId: 'git', url: 'https://github.com/Houssemkais/continuous-integration.git'
             }
         }
         stage('MVN CLEAN') {
